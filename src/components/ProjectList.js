@@ -5,7 +5,7 @@ function ProjectList(props) {
 
     return <div className="contenerImage">
               {category.map(o => 
-                <img src={o.img}/>
+                <img key={o.key} src={o.img}/>
                 
                 )}
               
